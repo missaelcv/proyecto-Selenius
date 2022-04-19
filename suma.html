@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma de dos numeros</title>
+</head>
+<body>
+    <form action="" onsubmit="actualizarResultado()">
+        <label>Numero 1: </label><input type="text" id="primerNumero">
+        <label>Numero 2: </label><input type="text" id="segundoNumero">
+        <button id="botonSumar">Sumar</button>
+    </form>
+    <h1 id="resultado">valor</h1>
+
+    <script>
+        function actualizarResultado() {
+            event.preventDefault();
+            let numero1 = document.getElementById("primerNumero").value;
+            let numero2 = document.getElementById("segundoNumero").value;
+            let contenedorResultado = document.getElementById("resultado");
+
+            let suma = parseInt(numero1) + parseInt(numero2);
+            contenedorResultado.innerHTML = suma;
+        }
+    </script>
+</body>
+</html>
