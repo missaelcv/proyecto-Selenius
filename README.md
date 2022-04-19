@@ -4,11 +4,11 @@ proyecto-Selenius
 
 ##Pasos para realizar tests con Selenium y mocha
 
-# 1- Descargar e instalar nodejs (descargarlo desde: https://nodejs.org/en/ )
+##1- Descargar e instalar nodejs (descargarlo desde: https://nodejs.org/en/ )
 
-# 2- Ejecutar los comandos `node -v` y `npm -v` para verificar que `node` y `npm` estan instalados correctamente.
+##2- Ejecutar los comandos `node -v` y `npm -v` para verificar que `node` y `npm` estan instalados correctamente.
 
-# 3- Crear una carpeta para que funcione como base del proyecto de prueba:
+##3- Crear una carpeta para que funcione como base del proyecto de prueba:
 `mkdir PruebasSelenium`
 
 # 4- Abrir la carpeta recien creada
